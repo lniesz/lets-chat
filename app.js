@@ -262,7 +262,9 @@ function checkForMongoTextSearch() {
     });
 }
 
-mongoose.connect(settings.database.uri, function(err) {
+mongoose.connect(settings.database.uri, {
+  useMongoClient: true,
+}, function(err) {
     if (err) {
         throw err;
     }
