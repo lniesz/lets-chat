@@ -30,6 +30,7 @@ xmpp:
 
 database:
 #  uri: mongodb://mongouser:password@mongodb:27017/sampledb
+
   uri: mongodb://user7V2:e53bLMGvGSD88gWm@172.166.208.46:27017/sampledb
 
 secrets:
