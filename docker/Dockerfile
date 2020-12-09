@@ -1,4 +1,4 @@
-FROM x64/node:0.12-buster
+FROM node:12-buster
 MAINTAINER SD Elements
 
 ENV PKG_JSON_URL=https://raw.githubusercontent.com/sdelements/lets-chat/master/package.json \
